@@ -1,0 +1,126 @@
+// COLOR VARIABLES
+$color-primary-1: #3a4687;
+$color-primary-2: #2d3668;
+$color-primary-3: #202452;
+$color-primary-4: #171b42;
+$color-primary-5: #0e1434;
+
+$color-secondary: #ffd780;
+
+$color-hydro: #80c0ff;
+$color-electro: #ffacff;
+$color-geo: #ffe699;
+$color-cryo: #9ff;
+$color-pyro: #f99;
+$color-anemo: #80ffd7;
+$color-dendro: #ace529;
+
+$color-grey-light-1: #d4d5df;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
+
+// FONT VARIABLES
+$font-primary: 'Montserrat', sans-serif;
+
+// BREAKPOINTS
+
+$bp-largest  : 75em;    // 1200px / 16px = 75em
+$bp-large    : 62.5em;  // 1000px / 16px = 62.5em
+$bp-medium   : 50em;    // 800px / 16px = 50em
+$bp-small    : 37.5em;  // 600px / 16px = 37.5em
+$bp-smallest : 31.25em;  // 500px / 16px = 31.25em
+
+// SHADOES
+$shadow: 1px 2px 5px 2px rgba(0, 0, 0, .3);
+$shadow-light: 1px 2px 5px 2px rgba(0, 0, 0, .1);
+$shadow-dark: 0px 2px 10px 2px rgba(0, 0, 0, .5);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+body {
+    font-family: $font-primary;
+    color: #fff;
+    background-image: url('../assets/genshin-bg.jpg');
+    background-repeat: none;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: $color-primary-4;
+    min-height: 100vh;
+    height: 100%;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+    &__image {
+        height: 3rem;
+        width: 3rem;
+        margin-right: 1rem;
+    }
+    
+    &__title {
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+.tooltip {
+    
+    &:hover span {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    span {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        display: inline-block;
+        top: -40px;
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%) translateY(20px);
+        background: $color-primary-2;
+        width: fit-content;
+        border-radius: 10px;
+        padding: .7rem .9rem;
+        font-size: 1.4rem;
+        box-shadow: $shadow-light;
+        font-weight: 500;
+        transition: all .3s;
+        z-index: 200;
+    }
+}
