@@ -1,0 +1,77 @@
+.character {
+    margin: 2rem 0;
+    background: $color-primary-3;
+    box-shadow: $shadow;
+    border-radius: 5px;
+
+    &__header {
+        background-image: linear-gradient(rgba(23,27,66,.8), rgba(23,27,66,.8)), url('../../../public/assets/character-background.png');
+        background-position: 50% 40%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        .header {
+            &__title {
+                .title {
+                    &__game {
+                        font-size: 1.8rem;
+                        font-weight: 500;
+                    }
+            
+                    &__name {
+                        font-size: 2.3rem;
+                        font-weight: 600;
+                    }
+            
+                    &__info {
+                        font-size: 1.6rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+    &__nav {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(min-content, 17rem) );
+        justify-content: center;
+        
+        @media only screen and (max-width: $bp-medium) {
+            grid-template-columns: repeat(2, minmax(max-content, 1fr));
+        }
+
+        background: $color-primary-4;
+        a {
+            font-size: 1.6rem;
+            padding: 1rem 0;
+            text-align: center;
+            transition: all .2s;
+            @media only screen and (max-width: $bp-large) {
+                font-size: 1.3rem;
+            }
+            &:hover {
+                background: $color-primary-2;
+            }
+            @media only screen and (max-width: $bp-medium) {
+                & {
+                    border: .13px solid $color-primary-2;
+                }
+
+                &:last-child {
+                    grid-column: 1 / -1;
+                }
+            }
+            
+        }
+    }
+
+    &__main {
+        padding: 2rem 3rem;
+    }
+
+}

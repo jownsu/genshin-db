@@ -1,5 +1,6 @@
 import React from 'react'
 import { ELEMENTS, WEAPONS, CHARACTER_ICON_URL, ASSET_URL, CHARACTER_CARD_URL } from '../configs/constants'
+import { Link } from 'react-router-dom';
 
 function CharacterIcon(props) {
 
@@ -9,7 +10,9 @@ function CharacterIcon(props) {
         weapon, 
         rarity, 
         isNew = false,
-        hideName = false
+        hideName = false,
+        big = false,
+        cardLeft = false
     } = props;
 
     const renderStars = () => {
@@ -19,7 +22,7 @@ function CharacterIcon(props) {
             stars.push(
                     <img src={ASSET_URL + 'star.png'} 
                          alt='star'
-                         className='character__star' 
+                         className='character_icon__star' 
                     />
                 );
         }
@@ -30,22 +33,23 @@ function CharacterIcon(props) {
 
 
     return (
-        <a href='#'>
-            <div className="character tooltip">
-                <span>
+        <Link to={'characters/' + name}>
+            <div className="character_icon tooltip" style={ big ? { width: '100px', height: '100px' } : {}}>
+                <span style={cardLeft ? {top:'120px',left:'100px',width:'250px'} : {} }>
                     <img src={CHARACTER_CARD_URL + name.split(' ').join('_') + '.png'} alt="" />
                 </span>
                 <img 
                     src={CHARACTER_ICON_URL + name.split(' ').join('_') + '.png'} 
-                    alt='Albedo'
-                    className='character__image'    
+                    alt={name}
+                    className='character_icon__image'    
                 />
                 { 
                     weapon && 
                         <img 
                             src={WEAPONS[weapon]} 
                             alt={weapon}
-                            className='character__weapon'
+                            className='character_icon__weapon'
+                            style={big ? {width: '30px', height: '30px'} : {}}
                         />
                 }
 
@@ -54,20 +58,21 @@ function CharacterIcon(props) {
                         <img 
                             src={ELEMENTS[vision]} 
                             alt={vision} 
-                            className='character__element'    
+                            className='character_icon__element'    
+                            style={big ? {width: '30px', height: '30px'} : {}}
                         />
                 }
     
 
-                { !hideName && <p className="character__name">{name}</p>}
-                { isNew && <span className="character__new">New</span> }
+                { !hideName && <p className="character_icon__name">{name}</p>}
+                { isNew && <span className="character_icon__new">New</span> }
                 { rarity &&
-                <div className="character__stars">
+                <div className="character_icon__stars">
                     {renderStars()}
                 </div> }
             </div>
  
-        </a>
+        </Link>
     )
 }
 

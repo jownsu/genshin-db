@@ -1,28 +1,27 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './sass/main.scss'
 import Navigation from './components/Navigation';
-import CharacterIcon from './components/CharacterIcon';
-import CharacterList from './components/characters/CharacterList';
 import Footer from './components/Footer';
+import Characters from './pages/Characters';
+import Character from './pages/Character';
+import Tiers from './pages/Tiers';
+import Guides from './pages/Guides';
+import Teams from './pages/Teams';
 
 function App() {
   return (
-    <div>
-        <Navigation />
-        <CharacterList />
-        <Footer />
-        {/* <CharacterIcon 
-            name='Albedo' 
-            vision='Pyro' 
-            weapon='Sword' 
-        />
-        <CharacterIcon 
-            name='Eula' 
-            vision='Cryo' 
-            weapon='Claymore' 
-        /> */}
-
-    </div>
+        <Router>
+            <Navigation />
+                <Routes>
+                    <Route exact path='/' element={<Characters />}></Route>
+                    <Route exact path='/characters/:name' element={<Character />}></Route>
+                    <Route exact path='/teams' element={<Teams />}></Route>
+                    <Route exact path='/tiers' element={<Tiers />}></Route>
+                    <Route exact path='/guides' element={<Guides />}></Route>
+                </Routes>
+            <Footer />
+        </Router>
   );
 }
 

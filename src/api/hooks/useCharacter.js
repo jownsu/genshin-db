@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import character from '../../assets/data/characters.json'
+import JSONCharacter from '../../assets/data/characters.json'
 
 function useCharacter() {
-    const [characters, setCharacters] = useState(character)
+    const [characters, setCharacters] = useState(JSONCharacter);
 
     const filterCharacter = (search) => {
-        setCharacters(character.filter(item => {
+        setCharacters(JSONCharacter.filter(item => {
 
             if (
                 item.name.toLowerCase().match(search.search.toLowerCase()) && 
@@ -17,6 +17,12 @@ function useCharacter() {
 
             return false;
         }))
+    }
+
+    const getCharacter = (name) => {
+        let data = JSONCharacter.find(item => item.name == name);
+        console.log(data);
+        return data;
     }
 
     const filterMatch = (input, data) => {
@@ -33,6 +39,7 @@ function useCharacter() {
 
     return {
         characters,
+        getCharacter,
         filterCharacter    
     }
 

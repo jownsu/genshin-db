@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
-import CharacterIcon from '../CharacterIcon'
-import Filter from './Filter';
-import Search from '../Search';
-import useCharacter from '../../api/hooks/useCharacter';
+import CharacterIcon from '../components/CharacterIcon';
+import Filter from '../components/Filter';
+import Search from '../components/Search';
+import useCharacter from '../api/hooks/useCharacter';
 
-function CharacterList() {
+function Character() {
     const [filter, setFilter] = useState({
         search: '',
         vision: '',
@@ -26,8 +26,8 @@ function CharacterList() {
 
     return (
         <div className="container">
-            <div className="character_list">
-                <div className="character_list__header">
+            <div className="characters">
+                <div className="characters__header">
                     <h1>Genshin Impact Characters List</h1>
                     <Search 
                         onChange={(val) => {
@@ -60,7 +60,7 @@ function CharacterList() {
                     }}
                 />
             
-                <div className="character_list__main">
+                <div className="characters__main">
                     {
                         characters.map(item => (
                             <CharacterIcon 
@@ -78,4 +78,4 @@ function CharacterList() {
     )
 }
 
-export default CharacterList
+export default Character

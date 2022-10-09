@@ -53,6 +53,11 @@
             border-bottom: 3px solid $color-primary-1;
         } 
 
+        &.active {
+            color: #fff;
+            border-bottom: 3px solid $color-primary-1;
+        }
+
         @media only screen and (max-width: $bp-medium) {
             font-size: 1.8rem;
             font-weight: 500;

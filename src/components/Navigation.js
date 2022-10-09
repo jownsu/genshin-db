@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { NavLink } from 'react-router-dom'
 import GenshinLogo from '../assets/genshin-logo.svg'
 function Navigation() {
     const [active, setActive] = useState(false)
@@ -13,14 +14,14 @@ function Navigation() {
                 <div className='logo'>
                     <img src={GenshinLogo} alt="genshin-logo" className="logo__image"/>
                     <div className="logo__title">
-                        <a href='#'>Geshin.GG</a>
+                        <NavLink exact to='/'end>Geshin.GG</NavLink>
                     </div>
                 </div>
                 <div className={"nav__links " + (active && 'active')}>
-                    <a href="#" className="nav__link">Characters</a>
-                    <a href="#" className="nav__link">Teams</a>
-                    <a href="#" className="nav__link">Tier List</a>
-                    <a href="#" className="nav__link">Farming Guide</a>
+                    <NavLink exact to="/" end   className="nav__link" activeClassName="active">Characters</NavLink>
+                    <NavLink exact to="/teams"  className="nav__link" activeClassName="active">Teams</NavLink>
+                    <NavLink exact to="/tiers"  className="nav__link" activeClassName="active">Tier List</NavLink>
+                    <NavLink exact to="/guides" className="nav__link" activeClassName="active">Farming Guide</NavLink>
                 </div>
                 <div className="nav__ham" onClick={toggleNav}>
                     <div className={'nav__hambar ' + (active && 'active')}></div>

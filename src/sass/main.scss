@@ -1,9 +1,22 @@
 @import "base";
 @import "typography";
 
+@import "./pages/characters";
+@import "./pages/character";
+
 @import "./layouts/navigation";
 @import "./layouts/footer";
 
 @import "./components/character_icon";
-@import "./components/character_list";
+@import "./components/icon";
 @import "./components/search";
+@import "./components/filter";
+
+@import "./components/Builds/builds";
+@import "./components/Builds/build_item";
+@import "./components/Builds/build_card";
+
+@import "./components/CharacterInfo/character_info-list";
+@import "./components/CharacterInfo/character-info-card";
+
+@import "./components/character_showcase";

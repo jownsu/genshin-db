@@ -1,11 +1,10 @@
 .footer {
-    padding: 3rem;
     background: $color-primary-5;
     font-size: 1.6rem;
     .container {
+        padding: 3rem;
         display: flex;
         gap: 4rem;
-
         @media only screen and (max-width: $bp-medium) {
             flex-direction: column;
             text-align: center;

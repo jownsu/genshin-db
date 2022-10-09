@@ -1,0 +1,11 @@
+.builds {
+    margin-bottom: 2rem;
+    &__main {
+        background: $color-primary-2;
+        padding: 2rem;
+        border-radius: 7px;
+        box-shadow: $shadow;
+        font-size: 1.4rem;
+    }
+
+}

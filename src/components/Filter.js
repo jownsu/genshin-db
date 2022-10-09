@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ELEMENTS, WEAPONS } from '../../configs/constants'
+import { ELEMENTS, WEAPONS } from '../configs/constants'
 
 function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
     const [vision, setVision] = useState('');
@@ -22,10 +22,10 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
     }
 
     return (
-        <div className="character_list__filter">
-            <div className="character_list__filter--vision">
+        <div className="filter">
+            <div className="filter__vision">
                 <div 
-                    className={'tooltip character_list__icon ' + (vision == 'Anemo' && 'active')} 
+                    className={'tooltip filter__icon ' + (vision == 'Anemo' && 'active')} 
                     onClick={() => handleVisionClick('Anemo')}
                 >
                     <span>Anemo</span>
@@ -35,7 +35,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     />
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (vision == 'Cryo' && 'active')} 
+                    className={'tooltip filter__icon ' + (vision == 'Cryo' && 'active')} 
                     onClick={() => handleVisionClick('Cryo')}
                 >
                     <span>Cryo</span>
@@ -45,7 +45,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     /> 
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (vision == 'Electro' && 'active')} 
+                    className={'tooltip filter__icon ' + (vision == 'Electro' && 'active')} 
                     onClick={() => handleVisionClick('Electro')}    
                 >
                     <span>Electro</span>
@@ -55,7 +55,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     /> 
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (vision == 'Dendro' && 'active')} 
+                    className={'tooltip filter__icon ' + (vision == 'Dendro' && 'active')} 
                     onClick={() => handleVisionClick('Dendro')}    
                 >
                     <span>Dendro</span>
@@ -65,7 +65,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     /> 
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (vision == 'Geo' && 'active')} 
+                    className={'tooltip filter__icon ' + (vision == 'Geo' && 'active')} 
                     onClick={() => handleVisionClick('Geo')}
                 >
                     <span>Geo</span>
@@ -75,7 +75,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     /> 
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (vision == 'Hydro' && 'active')} 
+                    className={'tooltip filter__icon ' + (vision == 'Hydro' && 'active')} 
                     onClick={() => handleVisionClick('Hydro')}
                 >
                     <span>Hydro</span>
@@ -85,7 +85,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     /> 
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (vision == 'Pyro' && 'active')} 
+                    className={'tooltip filter__icon ' + (vision == 'Pyro' && 'active')} 
                     onClick={() => handleVisionClick('Pyro')}    
                 >
                     <span>Pyro</span>
@@ -97,9 +97,9 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
 
             </div>
 
-            <div className="character_list__filter--weapon">
+            <div className="filter__weapon">
                 <div 
-                    className={'tooltip character_list__icon ' + (weapon == 'Bow' && 'active')} 
+                    className={'tooltip filter__icon ' + (weapon == 'Bow' && 'active')} 
                     onClick={() => handleWeaponClick('Bow')}    
                 >
                     <span>Bow</span>
@@ -109,7 +109,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     /> 
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (weapon == 'Catalyst' && 'active')} 
+                    className={'tooltip filter__icon ' + (weapon == 'Catalyst' && 'active')} 
                     onClick={() => handleWeaponClick('Catalyst')}        
                 >
                     <span>Catalyst</span>
@@ -119,7 +119,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     /> 
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (weapon == 'Claymore' && 'active')} 
+                    className={'tooltip filter__icon ' + (weapon == 'Claymore' && 'active')} 
                     onClick={() => handleWeaponClick('Claymore')}        
                 >
                     <span>Claymore</span>
@@ -129,7 +129,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     /> 
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (weapon == 'Polearm' && 'active')} 
+                    className={'tooltip filter__icon ' + (weapon == 'Polearm' && 'active')} 
                     onClick={() => handleWeaponClick('Polearm')}    
                 >
                     <span>Polearm</span>
@@ -139,7 +139,7 @@ function Filter({onVisionChange = () => {}, onWeaponChange = () => {}}) {
                     /> 
                 </div>
                 <div 
-                    className={'tooltip character_list__icon ' + (weapon == 'Sword' && 'active')} 
+                    className={'tooltip filter__icon ' + (weapon == 'Sword' && 'active')} 
                     onClick={() => handleWeaponClick('Sword')}    
                 >
                     <span>Sword</span>
