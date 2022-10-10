@@ -1,0 +1,1072 @@
+[
+    {
+        "characters": [
+            "Ganyu",
+            "Xiangling",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 1,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Ganyu",
+            "Venti",
+            "Mona",
+            "Diona"
+        ],
+        "id": 2,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Hu Tao",
+            "Xingqiu",
+            "Yelan",
+            "Zhongli"
+        ],
+        "id": 3,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Ayaka",
+            "Kokomi",
+            "Shenhe",
+            "Kazuha"
+        ],
+        "id": 4,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Yoimiya",
+            "Yun Jin",
+            "Yelan",
+            "Zhongli"
+        ],
+        "id": 5,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Raiden",
+            "Xiangling",
+            "Bennett",
+            "Xingqiu"
+        ],
+        "id": 6,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Beidou",
+            "Fischl",
+            "Xingqiu",
+            "Sucrose"
+        ],
+        "id": 7,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Childe",
+            "Xiangling",
+            "Bennett",
+            "Kazuha"
+        ],
+        "id": 8,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Eula",
+            "Fischl",
+            "Diona",
+            "Beidou"
+        ],
+        "id": 9,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Xiangling",
+            "Yelan",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 10,
+        "tier": 1
+    },
+    {
+        "characters": [
+            "Xiao",
+            "Jean",
+            "Albedo",
+            "Zhongli"
+        ],
+        "id": 11,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ganyu",
+            "Venti",
+            "Mona",
+            "Aloy"
+        ],
+        "id": 12,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiao",
+            "Sucrose",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 13,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiangling",
+            "Venti",
+            "Bennett",
+            "Kazuha"
+        ],
+        "id": 14,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Hu Tao",
+            "Xingqiu",
+            "Amber",
+            "Zhongli"
+        ],
+        "id": 15,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ayaka",
+            "Venti",
+            "Barbara",
+            "Diona"
+        ],
+        "id": 16,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Childe",
+            "Fischl",
+            "Beidou",
+            "Bennett"
+        ],
+        "id": 17,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiangling",
+            "Chongyun",
+            "Rosaria",
+            "Bennett"
+        ],
+        "id": 18,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Diluc",
+            "Xingqiu",
+            "Bennett",
+            "Sucrose"
+        ],
+        "id": 19,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiangling",
+            "Kaeya",
+            "Rosaria",
+            "Bennett"
+        ],
+        "id": 20,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Keqing",
+            "Xingqiu",
+            "Bennett",
+            "Kazuha"
+        ],
+        "id": 21,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ganyu",
+            "Klee",
+            "Diona",
+            "Kazuha"
+        ],
+        "id": 22,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Kokomi",
+            "Fischl",
+            "Beidou",
+            "Kazuha"
+        ],
+        "id": 23,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Hu Tao",
+            "Xingqiu",
+            "Ningguang",
+            "Zhongli"
+        ],
+        "id": 24,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Hu Tao",
+            "Xingqiu",
+            "Noelle",
+            "Zhongli"
+        ],
+        "id": 25,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiao",
+            "Venti",
+            "Qiqi",
+            "Zhongli"
+        ],
+        "id": 26,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Eula",
+            "Raiden",
+            "Rosaria",
+            "Zhongli"
+        ],
+        "id": 27,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Raiden",
+            "Sara",
+            "Bennett",
+            "Kazuha"
+        ],
+        "id": 28,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiangling",
+            "Sayu",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 29,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiao",
+            "Sucrose",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 30,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Hu Tao",
+            "Xingqiu",
+            "Kazuha",
+            "Thoma"
+        ],
+        "id": 31,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiao",
+            "Traveler (Anemo)",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 32,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Eula",
+            "Fischl",
+            "Diona",
+            "Traveler (Electro)"
+        ],
+        "id": 33,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiao",
+            "Jean",
+            "Traveler (Geo)",
+            "Zhongli"
+        ],
+        "id": 34,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Eula",
+            "Raiden",
+            "Xinyan",
+            "Bennett"
+        ],
+        "id": 35,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Yanfei",
+            "Xingqiu",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 36,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Yoimiya",
+            "Fischl",
+            "Beidou",
+            "Bennett"
+        ],
+        "id": 37,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Hu Tao",
+            "Xingqiu",
+            "Amber",
+            "Sucrose"
+        ],
+        "id": 38,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ayaka",
+            "Xingqiu",
+            "Kaeya",
+            "Kazuha"
+        ],
+        "id": 39,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Beidou",
+            "Fischl",
+            "Xingqiu",
+            "Bennett"
+        ],
+        "id": 40,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Mona",
+            "Kaeya",
+            "Rosaria",
+            "Kazuha"
+        ],
+        "id": 41,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Klee",
+            "Kazuha",
+            "Albedo",
+            "Zhongli"
+        ],
+        "id": 42,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ganyu",
+            "Venti",
+            "Kokomi",
+            "Ayaka"
+        ],
+        "id": 43,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiao",
+            "Jean",
+            "Ningguang",
+            "Zhongli"
+        ],
+        "id": 44,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Noelle",
+            "Ningguang",
+            "Albedo",
+            "Zhongli"
+        ],
+        "id": 45,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Diluc",
+            "Xingqiu",
+            "Zhongli",
+            "Sayu"
+        ],
+        "id": 46,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Childe",
+            "Xiangling",
+            "Bennett",
+            "Sucrose"
+        ],
+        "id": 47,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Hu Tao",
+            "Xingqiu",
+            "Traveler (Geo)",
+            "Zhongli"
+        ],
+        "id": 48,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Yoimiya",
+            "Xingqiu",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 49,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Hu Tao",
+            "Xingqiu",
+            "Kaeya",
+            "Diona"
+        ],
+        "id": 50,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ayaka",
+            "Mona",
+            "Diona",
+            "Kazuha"
+        ],
+        "id": 51,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Kokomi",
+            "Xiangling",
+            "Bennett",
+            "Kazuha"
+        ],
+        "id": 52,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Childe",
+            "Raiden",
+            "Beidou",
+            "Bennett"
+        ],
+        "id": 53,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Yoimiya",
+            "Bennett",
+            "Venti",
+            "Kazuha"
+        ],
+        "id": 54,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Jean",
+            "Rosaria",
+            "Fischl",
+            "Bennett"
+        ],
+        "id": 55,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Bennett",
+            "Lisa",
+            "Beidou",
+            "Xingqiu"
+        ],
+        "id": 56,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Raiden",
+            "Lisa",
+            "Bennett",
+            "Kazuha"
+        ],
+        "id": 57,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Eula",
+            "Fischl",
+            "Diona",
+            "Lisa"
+        ],
+        "id": 58,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ningguang",
+            "Fischl",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 59,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ningguang",
+            "Albedo",
+            "Noelle",
+            "Zhongli"
+        ],
+        "id": 60,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Noelle",
+            "Fischl",
+            "Beidou",
+            "Zhongli"
+        ],
+        "id": 61,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Noelle",
+            "Fischl",
+            "Albedo",
+            "Zhongli"
+        ],
+        "id": 62,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Noelle",
+            "Traveler (Geo)",
+            "Albedo",
+            "Zhongli"
+        ],
+        "id": 63,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Razor",
+            "Fischl",
+            "Rosaria",
+            "Zhongli"
+        ],
+        "id": 64,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Razor",
+            "Fischl",
+            "Xingqiu",
+            "Diona"
+        ],
+        "id": 65,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Beidou",
+            "Sara",
+            "Bennett",
+            "Sucrose"
+        ],
+        "id": 66,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Childe",
+            "Fischl",
+            "Sara",
+            "Bennett"
+        ],
+        "id": 67,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ganyu",
+            "Xiangling",
+            "Bennett",
+            "Sucrose"
+        ],
+        "id": 68,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Itto",
+            "Gorou",
+            "Albedo",
+            "Diona"
+        ],
+        "id": 69,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Itto",
+            "Traveler (Geo)",
+            "Fischl",
+            "Beidou"
+        ],
+        "id": 70,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Itto",
+            "Traveler (Geo)",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 71,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Noelle",
+            "Gorou",
+            "Albedo",
+            "Fischl"
+        ],
+        "id": 72,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiao",
+            "Sucrose",
+            "Fischl",
+            "Diona"
+        ],
+        "id": 73,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Yoimiya",
+            "Yun Jin",
+            "Bennett",
+            "Kazuha"
+        ],
+        "id": 74,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Razor",
+            "Yun Jin",
+            "Kaeya",
+            "Qiqi"
+        ],
+        "id": 75,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Noelle",
+            "Yun Jin",
+            "Albedo",
+            "Gorou"
+        ],
+        "id": 76,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ganyu",
+            "Ayaka",
+            "Shenhe",
+            "Jean"
+        ],
+        "id": 77,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ganyu",
+            "Bennett",
+            "Shenhe",
+            "Kazuha"
+        ],
+        "id": 78,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ganyu",
+            "Venti",
+            "Mona",
+            "Shenhe"
+        ],
+        "id": 79,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Yae Miko",
+            "Xingqiu",
+            "Fischl",
+            "Sucrose"
+        ],
+        "id": 80,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Beidou",
+            "Fischl",
+            "Xingqiu",
+            "Sucrose"
+        ],
+        "id": 81,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Yae Miko",
+            "Raiden",
+            "Sara",
+            "Kazuha"
+        ],
+        "id": 82,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Yae Miko",
+            "Raiden",
+            "Bennett",
+            "Venti"
+        ],
+        "id": 83,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ayato",
+            "Fischl",
+            "Beidou",
+            "Venti"
+        ],
+        "id": 84,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ayato",
+            "Ayaka",
+            "Kazuha",
+            "Diona"
+        ],
+        "id": 85,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Ayato",
+            "Ayaka",
+            "Venti",
+            "Ganyu"
+        ],
+        "id": 86,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Hu Tao",
+            "Xingqiu",
+            "Yelan",
+            "Zhongli"
+        ],
+        "id": 87,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiangling",
+            "Yelan",
+            "Bennett",
+            "Zhongli"
+        ],
+        "id": 88,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Eula",
+            "Fischl",
+            "Yelan",
+            "Diona"
+        ],
+        "id": 89,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Sucrose",
+            "Kuki Shinobu",
+            "Beidou",
+            "Xingqiu"
+        ],
+        "id": 90,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Sucrose",
+            "Kuki Shinobu",
+            "Fischl",
+            "Xingqiu"
+        ],
+        "id": 91,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Sucrose",
+            "Kuki Shinobu",
+            "Fischl",
+            "Yelan"
+        ],
+        "id": 92,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Beidou",
+            "Fischl",
+            "Xingqiu",
+            "Heizou"
+        ],
+        "id": 93,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Yelan",
+            "Fischl",
+            "Xingqiu",
+            "Heizou"
+        ],
+        "id": 94,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Xiangling",
+            "Xingqiu",
+            "Bennett",
+            "Heizou"
+        ],
+        "id": 95,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Traveler (Dendro)",
+            "Rosaria",
+            "Kokomi",
+            "Kazuha"
+        ],
+        "id": 96,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Childe",
+            "Xiangling",
+            "Bennett",
+            "Traveler (Dendro)"
+        ],
+        "id": 97,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Raiden",
+            "Traveler (Dendro)",
+            "Kuki Shinobu",
+            "Sucrose"
+        ],
+        "id": 98,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Tighnari",
+            "Sara",
+            "Yae Miko",
+            "Kazuha"
+        ],
+        "id": 99,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Tighnari",
+            "Fischl",
+            "Yae Miko",
+            "Sucrose"
+        ],
+        "id": 100,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Tighnari",
+            "Fischl",
+            "Kokomi",
+            "Kazuha"
+        ],
+        "id": 101,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Raiden",
+            "Collei",
+            "Yae Miko",
+            "Kazuha"
+        ],
+        "id": 102,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Raiden",
+            "Collei",
+            "Kuki Shinobu",
+            "Sucrose"
+        ],
+        "id": 103,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Childe",
+            "Xiangling",
+            "Bennett",
+            "Collei"
+        ],
+        "id": 104,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Sucrose",
+            "Kuki Shinobu",
+            "Traveler (Dendro)",
+            "Xingqiu"
+        ],
+        "id": 105,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Sucrose",
+            "Kuki Shinobu",
+            "Traveler (Dendro)",
+            "Fischl"
+        ],
+        "id": 106,
+        "tier": 2
+    },
+    {
+        "characters": [
+            "Sucrose",
+            "Kuki Shinobu",
+            "Fischl",
+            "Xingqiu"
+        ],
+        "id": 107,
+        "tier": 2
+    }
+]

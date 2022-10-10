@@ -19,6 +19,7 @@ function CharacterInfoList(props) {
             <div className="character-info-list__container">
                 {data.map((item, index) => {
                     return <CharacterInfoCard 
+                                key={index}
                                 name={item[primary]}
                                 type={ 
                                         customSecondary 

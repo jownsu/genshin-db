@@ -15,8 +15,9 @@ function Builds(props) {
         <div className="builds" id={id}>
             <div className="heading-4">{"Best " + name + " Builds"}</div>
             <div className="builds__main">
-                {data.map(item => (
+                {data.map((item, index) => (
                     <BuildItem 
+                        key={index}
                         data={item}
                         name={name}
                         theme={COLORS[theme]}

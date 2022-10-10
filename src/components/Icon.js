@@ -18,6 +18,7 @@ function Icon(props) {
         for(let i = 1; i <= rarity; i++){
             stars.push(
                     <img 
+                        key={i}
                         src={ASSET_URL + 'star.png'} 
                         alt='star'
                         className='character_icon__star' 

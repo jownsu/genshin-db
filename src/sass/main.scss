@@ -4,6 +4,7 @@
 @import "./pages/characters";
 @import "./pages/character";
 @import "./pages/tiers";
+@import "./pages/teams";
 
 @import "./layouts/navigation";
 @import "./layouts/footer";
@@ -19,6 +20,9 @@
 
 @import "./components/CharacterInfo/character_info-list";
 @import "./components/CharacterInfo/character-info-card";
+
+@import "./components/Teams/team_card";
+@import "./components/Teams/team_list";
 
 @import "./components/character_showcase";
 @import "./components/tier-card";

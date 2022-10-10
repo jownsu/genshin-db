@@ -8,20 +8,60 @@ function Navigation() {
         setActive(prevState => !prevState);
     }
 
+    const offNav = () => {
+        setActive(false);
+    }
+
     return (
         <nav className='nav'>
             <div className="container">
                 <div className='logo'>
                     <img src={GenshinLogo} alt="genshin-logo" className="logo__image"/>
                     <div className="logo__title">
-                        <NavLink exact to='/'end>Geshin.GG</NavLink>
+                        <NavLink exact="true" to='/'end>Geshin.GG</NavLink>
                     </div>
                 </div>
                 <div className={"nav__links " + (active && 'active')}>
-                    <NavLink exact to="/" end   className="nav__link" activeClassName="active">Characters</NavLink>
-                    <NavLink exact to="/teams"  className="nav__link" activeClassName="active">Teams</NavLink>
-                    <NavLink exact to="/tiers"  className="nav__link" activeClassName="active">Tier List</NavLink>
-                    <NavLink exact to="/guides" className="nav__link" activeClassName="active">Farming Guide</NavLink>
+                    <NavLink 
+                        exact="true" 
+                        to="/" 
+                        end 
+                        className="nav__link"
+                        activeclassname="active"
+                        onClick={offNav}
+                    >
+                        Characters
+                    </NavLink>
+
+                    <NavLink 
+                        exact="true" 
+                        to="/teams" 
+                        className="nav__link" 
+                        activeclassname="active"
+                        onClick={offNav}
+                    >
+                        Teams
+                    </NavLink>
+
+                    <NavLink 
+                        exact="true" 
+                        to="/tiers" 
+                        className="nav__link" 
+                        activeclassname="active"
+                        onClick={offNav}
+                    >
+                        Tier List
+                    </NavLink>
+
+                    <NavLink 
+                        exact="true" 
+                        to="/guides" 
+                        className="nav__link" 
+                        activeclassname="active"
+                        onClick={offNav}
+                    >
+                        Farming Guide
+                    </NavLink>
                 </div>
                 <div className="nav__ham" onClick={toggleNav}>
                     <div className={'nav__hambar ' + (active && 'active')}></div>

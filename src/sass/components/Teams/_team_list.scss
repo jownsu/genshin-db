@@ -1,0 +1,19 @@
+.team_list {
+
+    margin-bottom: 1rem;
+
+    &__main {
+        background: $color-primary-2;
+        box-shadow: $shadow;
+        border-radius: 5px;
+        padding: 2rem;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            grid-template-columns: 1fr;
+        }
+    }
+}

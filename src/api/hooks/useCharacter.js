@@ -20,9 +20,7 @@ function useCharacter() {
     }
 
     const getCharacter = (name) => {
-        let data = JSONCharacter.find(item => item.name == name);
-        console.log(data);
-        return data;
+        return JSONCharacter.find(item => item.name == name);
     }
 
     const filterMatch = (input, data) => {

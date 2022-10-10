@@ -6,8 +6,25 @@
     box-shadow: $shadow;
 
 
-    &__main {
-        
+    &__header {
+        font-size: 1.3rem;
+        padding: 2rem;
+        border-radius: 4px;
+        box-shadow: $shadow-light;
+        margin-bottom: 1rem;
+        background: $color-primary-2;
+        text-align: center;
+        p {
+            width: 100%;
+            margin: 0 auto;
+            max-width: 90rem;
+
+            a {
+                color: #79d3c8;
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
     }
 
 }

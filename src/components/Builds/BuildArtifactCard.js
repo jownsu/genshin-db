@@ -28,8 +28,8 @@ function BuildArtifactCard({name, stats = [], theme}) {
 
             <div className="build_card__main">
                 {
-                    artifact.bonus.map(item => (
-                        <p className='build_card__bonus'><span>({item.count})</span> {item.value}</p>
+                    artifact.bonus.map((item, index) => (
+                        <p key={index} className='build_card__bonus'><span>({item.count})</span> {item.value}</p>
                     ))
                 }
             </div>

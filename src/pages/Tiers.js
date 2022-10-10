@@ -60,6 +60,12 @@ function Tiers() {
                     }}
                 />
 
+                <div className="tiers__header">
+                    <p>Units are evaluated at the constellation marked on their portrait and by their optimal roles. Tiers are ordered alphabetically.
+                    Heavily based on the Tier List by <a href="https://space.bilibili.com/24889090" target="_blank">Usagi Sensei</a>, a well known and respected theory crafter.</p>
+    
+                </div>
+
                 <div className="tiers__main">
      
                     <TierCard 

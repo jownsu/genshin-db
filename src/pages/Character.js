@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { COLORS } from '../configs/constants';
 import useCharacter from '../api/hooks/useCharacter';
@@ -11,8 +11,13 @@ function Character() {
     const params = useParams();
     const {getCharacter} = useCharacter();
     const [character, setCharacter] = useState({})
+    const didMount = useRef(false);
 
     useEffect(() => {
+        if (!didMount.current) {
+            didMount.current = true;
+            return;
+        }
         setCharacter(getCharacter(params.name));
     }, []);
 
