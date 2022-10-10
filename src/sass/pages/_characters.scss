@@ -10,19 +10,6 @@
         border-radius: 0;
     }
 
-    &__header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 2rem;
-        @media only screen and (max-width: $bp-medium) {
-            flex-direction: column;
-            gap: 1rem;
-            align-items: stretch;
-            text-align: center;
-        }
-    }
-
     &__main {
         display: grid;
         grid-template-columns: repeat(8, 1fr);

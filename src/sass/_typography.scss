@@ -17,6 +17,20 @@
     font-size: 2rem;
 }
 
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+        text-align: center;
+    }
+}
+
+
 .heading-4 {
     font-size: 1.8rem;
     font-weight: 500;

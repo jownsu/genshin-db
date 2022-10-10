@@ -27,7 +27,7 @@ function Character() {
     return (
         <div className="container">
             <div className="characters">
-                <div className="characters__header">
+                <div className="header-box">
                     <h1>Genshin Impact Characters List</h1>
                     <Search 
                         onChange={(val) => {

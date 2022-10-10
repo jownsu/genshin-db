@@ -33,7 +33,7 @@ function CharacterIcon(props) {
 
 
     return (
-        <Link to={'characters/' + name}>
+        <Link to={'/characters/' + name}>
             <div className="character_icon tooltip" style={ big ? { width: '100px', height: '100px' } : {}}>
                 <span style={cardLeft ? {top:'120px',left:'100px',width:'250px'} : {} }>
                     <img src={CHARACTER_CARD_URL + name.split(' ').join('_') + '.png'} alt="" />
