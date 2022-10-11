@@ -12,6 +12,7 @@ function CharacterIcon(props) {
         isNew = false,
         hideName = false,
         big = false,
+        small = false,
         cardLeft = false
     } = props;
 
@@ -36,7 +37,7 @@ function CharacterIcon(props) {
 
     return (
         <Link to={'/characters/' + name}>
-            <div className="character_icon tooltip" style={ big ? { width: '100px', height: '100px' } : {}}>
+            <div className={"character_icon tooltip " + (big ? 'big' : '') + (small ? 'small' : '') }>
                 <span style={cardLeft ? {top:'120px',left:'100px',width:'250px'} : {} }>
                     <img src={CHARACTER_CARD_URL + name.split(' ').join('_') + '.png'} alt="" />
                 </span>
@@ -50,8 +51,7 @@ function CharacterIcon(props) {
                         <img 
                             src={WEAPONS[weapon]} 
                             alt={weapon}
-                            className='character_icon__weapon'
-                            style={big ? {width: '30px', height: '30px'} : {}}
+                            className={'character_icon__weapon ' + (big ? 'big' : '') + (small ? 'small' : '')}
                         />
                 }
 
@@ -60,8 +60,7 @@ function CharacterIcon(props) {
                         <img 
                             src={ELEMENTS[vision]} 
                             alt={vision} 
-                            className='character_icon__element'    
-                            style={big ? {width: '30px', height: '30px'} : {}}
+                            className={'character_icon__element ' + (big ? 'big' : '') + (small ? 'small' : '')}    
                         />
                 }
     

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Branch",
+        "id": "1",
+        "days": [
+            "Monday",
+            "Thursday"
+        ]
+    },
+    {
+        "name": "Decarabian",
+        "id": 2,
+        "days": [
+            "Monday",
+            "Thursday"
+        ]
+    },
+    {
+        "name": "Guyun",
+        "id": 3,
+        "days": [
+            "Monday",
+            "Thursday"
+        ]
+    },
+    {
+        "name": "Talisman of the Forest Dew",
+        "id": 4,
+        "days": [
+            "Monday",
+            "Thursday"
+        ]
+    },
+    {
+        "name": "Boreal Wolf",
+        "id": 5,
+        "days": [
+            "Tuesday",
+            "Friday"
+        ]
+    },
+    {
+        "name": "Mist Veiled Elixir",
+        "id": 6,
+        "days": [
+            "Tuesday",
+            "Friday"
+        ]
+    },
+    {
+        "name": "Narukami",
+        "id": 7,
+        "days": [
+            "Tuesday",
+            "Friday"
+        ]
+    },
+    {
+        "name": "Oasis Garden",
+        "id": 8,
+        "days": [
+            "Tuesday",
+            "Friday"
+        ]
+    },
+    {
+        "name": "Aerosiderite",
+        "id": 9,
+        "days": [
+            "Wednesday",
+            "Saturday"
+        ]
+    },
+    {
+        "name": "Dandelion Gladiator",
+        "id": 10,
+        "days": [
+            "Wednesday",
+            "Saturday"
+        ]
+    },
+    {
+        "name": "Mask",
+        "id": 11,
+        "days": [
+            "Wednesday",
+            "Saturday"
+        ]
+    },
+    {
+        "name": "Scorching Might",
+        "id": 12,
+        "days": [
+            "Wednesday",
+            "Saturday"
+        ]
+    }
+]

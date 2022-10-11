@@ -1,0 +1,32 @@
+.guides {
+    background: $color-primary-3;
+    padding: 3rem;
+    margin: 3rem 0;
+    border-radius: 5px;
+    box-shadow: $shadow;
+    overflow: hidden;
+
+    &__header {
+        font-size: 1.3rem;
+        padding: 2rem;
+        border-radius: 4px;
+        box-shadow: $shadow-light;
+        margin-bottom: 1rem;
+        background: $color-primary-2;
+        margin-bottom: 2rem;
+        line-height: 2.1;
+        p {
+            width: 100%;
+            margin: 0 auto;
+            max-width: 90rem;
+
+            a {
+                color: #79d3c8;
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+
+}

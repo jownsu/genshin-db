@@ -1,0 +1,533 @@
+[
+    {
+        "name": "Amakumo Fruit",
+        "id": "1",
+        "characters": [
+            "Raiden"
+        ]
+    },
+    {
+        "name": "Basalt Pillar",
+        "id": 2,
+        "characters": [
+            "Albedo",
+            "Ningguang",
+            "Noelle",
+            "Zhongli"
+        ]
+    },
+    {
+        "name": "Calla Lily",
+        "id": 3,
+        "characters": [
+            "Diona",
+            "Kaeya"
+        ]
+    },
+    {
+        "name": "Cecilia",
+        "id": 4,
+        "characters": [
+            "Albedo",
+            "Venti"
+        ]
+    },
+    {
+        "name": "Cleansing Heart",
+        "id": 5,
+        "characters": [
+            "Barbara",
+            "Childe",
+            "Mona",
+            "Xingqiu"
+        ]
+    },
+    {
+        "name": "Cor Lapis",
+        "id": 6,
+        "characters": [
+            "Chongyun",
+            "Keqing",
+            "Zhongli"
+        ]
+    },
+    {
+        "name": "Crystal Marrow",
+        "id": 7,
+        "characters": [
+            "Aloy",
+            "Sayu"
+        ]
+    },
+    {
+        "name": "Crystalline Bloom",
+        "id": 8,
+        "characters": [
+            "Aloy",
+            "Eula"
+        ]
+    },
+    {
+        "name": "Damaged Mask",
+        "id": 9,
+        "characters": [
+            "Chongyun",
+            "Eula",
+            "Jean",
+            "Noelle",
+            "Razor",
+            "Sara",
+            "Traveler (Anemo)",
+            "Traveler (Geo)",
+            "Xingqiu",
+            "Yun Jin"
+        ]
+    },
+    {
+        "name": "Dandelion Seed",
+        "id": 10,
+        "characters": [
+            "Eula",
+            "Jean"
+        ]
+    },
+    {
+        "name": "Dendrobium",
+        "id": 11,
+        "characters": [
+            "Sara"
+        ]
+    },
+    {
+        "name": "Dew of Repudiation",
+        "id": 12,
+        "characters": [
+            "Ayato",
+            "Kokomi"
+        ]
+    },
+    {
+        "name": "Divining Scroll",
+        "id": 13,
+        "characters": [
+            "Albedo",
+            "Barbara",
+            "Cyno",
+            "Klee",
+            "Qiqi",
+            "Traveler (Anemo)",
+            "Traveler (Geo)",
+            "Yoimiya"
+        ]
+    },
+    {
+        "name": "Dragonheir's False Fin",
+        "id": 14,
+        "characters": [
+            "Shenhe",
+            "Yae Miko"
+        ]
+    },
+    {
+        "name": "Everflame Seed",
+        "id": 15,
+        "characters": [
+            "Amber",
+            "Bennett",
+            "Diluc",
+            "Klee",
+            "Xiangling",
+            "Xinyan"
+        ]
+    },
+    {
+        "name": "Faded Red Satin",
+        "id": 16,
+        "characters": [
+            "Candace",
+            "Dori"
+        ]
+    },
+    {
+        "name": "Firm Arrowhead",
+        "id": 17,
+        "characters": [
+            "Amber",
+            "Collei",
+            "Diona",
+            "Fischl"
+        ]
+    },
+    {
+        "name": "Fluorescent Fungus",
+        "id": 18,
+        "characters": [
+            "Thoma"
+        ]
+    },
+    {
+        "name": "Fungal Spores",
+        "id": 19,
+        "characters": [
+            "Tighnari"
+        ]
+    },
+    {
+        "name": "Glaze Lily",
+        "id": 20,
+        "characters": [
+            "Ningguang",
+            "Yun Jin"
+        ]
+    },
+    {
+        "name": "Hoarfrost Core",
+        "id": 21,
+        "characters": [
+            "Chongyun",
+            "Diona",
+            "Ganyu",
+            "Kaeya",
+            "Rosaria",
+            "Qiqi"
+        ]
+    },
+    {
+        "name": "Hurricane Seed",
+        "id": 22,
+        "characters": [
+            "Jean",
+            "Sucrose",
+            "Venti"
+        ]
+    },
+    {
+        "name": "Juvenile Jade",
+        "id": 23,
+        "characters": [
+            "Hu Tao",
+            "Xiao",
+            "Yanfei"
+        ]
+    },
+    {
+        "name": "Jueyun Chili",
+        "id": 24,
+        "characters": [
+            "Xiangling"
+        ]
+    },
+    {
+        "name": "Kalpalata Lotus",
+        "id": 25,
+        "characters": [
+            "Dori"
+        ]
+    },
+    {
+        "name": "Light Guiding Tetrahedron",
+        "id": 26,
+        "characters": [
+            "Candace"
+        ]
+    },
+    {
+        "name": "Lightning Prism",
+        "id": 27,
+        "characters": [
+            "Beidou",
+            "Fischl",
+            "Keqing",
+            "Lisa",
+            "Razor"
+        ]
+    },
+    {
+        "name": "Majestic Hooked Beak",
+        "id": 28,
+        "characters": [
+            "Collei",
+            "Tighnari"
+        ]
+    },
+    {
+        "name": "Marionette Core",
+        "id": 29,
+        "characters": [
+            "Kazuha",
+            "Sayu"
+        ]
+    },
+    {
+        "name": "Naku Weed",
+        "id": 30,
+        "characters": [
+            "Kuki Shinobu",
+            "Yoimiya"
+        ]
+    },
+    {
+        "name": "Nilotpala Lotus",
+        "id": 31,
+        "characters": [
+            "Tighnari"
+        ]
+    },
+    {
+        "name": "Noctilous Jade",
+        "id": 32,
+        "characters": [
+            "Beidou",
+            "Yanfei"
+        ]
+    },
+    {
+        "name": "Old Handguard",
+        "id": 33,
+        "characters": [
+            "Ayaka",
+            "Ayato",
+            "Raiden",
+            "Yae Miko"
+        ]
+    },
+    {
+        "name": "Onikabuto",
+        "id": 34,
+        "characters": [
+            "Heizou",
+            "Itto"
+        ]
+    },
+    {
+        "name": "Perpetual Heart",
+        "id": 35,
+        "characters": [
+            "Ayaka",
+            "Gorou"
+        ]
+    },
+    {
+        "name": "Philanemo Mushroom",
+        "id": 36,
+        "characters": [
+            "Barbara",
+            "Klee",
+            "Mona"
+        ]
+    },
+    {
+        "name": "Qingxin",
+        "id": 37,
+        "characters": [
+            "Ganyu",
+            "Shenhe",
+            "Xiao"
+        ]
+    },
+    {
+        "name": "Recruit's Insignia",
+        "id": 38,
+        "characters": [
+            "Childe",
+            "Diluc",
+            "Ningguang",
+            "Rosaria",
+            "Yelan"
+        ]
+    },
+    {
+        "name": "Redcrest",
+        "id": 39,
+        "characters": [
+            "Candace"
+        ]
+    },
+    {
+        "name": "Riftborn Regalia",
+        "id": 40,
+        "characters": [
+            "Itto",
+            "Yun Jin"
+        ]
+    },
+    {
+        "name": "Rukkhashava Mushrooms",
+        "id": 41,
+        "characters": [
+            "Collei"
+        ]
+    },
+    {
+        "name": "Runic Fang",
+        "id": 42,
+        "characters": [
+            "Heizou",
+            "Kuki Shinobu",
+            "Yelan"
+        ]
+    },
+    {
+        "name": "Sakura Bloom",
+        "id": 43,
+        "characters": [
+            "Ayaka",
+            "Ayato"
+        ]
+    },
+    {
+        "name": "Sango Pearl",
+        "id": 44,
+        "characters": [
+            "Gorou",
+            "Kokomi"
+        ]
+    },
+    {
+        "name": "Scarab",
+        "id": 45,
+        "characters": [
+            "Cyno"
+        ]
+    },
+    {
+        "name": "Sea Ganoderma",
+        "id": 46,
+        "characters": [
+            "Kazuha",
+            "Yae Miko"
+        ]
+    },
+    {
+        "name": "Silk Flower",
+        "id": 47,
+        "characters": [
+            "Hu Tao",
+            "Xingqiu"
+        ]
+    },
+    {
+        "name": "Slime Condensate",
+        "id": 48,
+        "characters": [
+            "Itto",
+            "Lisa",
+            "Venti",
+            "Xiangling",
+            "Xiao",
+            "Zhongli"
+        ]
+    },
+    {
+        "name": "Small Lamp Grass",
+        "id": 49,
+        "characters": [
+            "Amber",
+            "Diluc",
+            "Fischl"
+        ]
+    },
+    {
+        "name": "Smoldering Pearl",
+        "id": 50,
+        "characters": [
+            "Thoma",
+            "Yoimiya"
+        ]
+    },
+    {
+        "name": "Spectral Husk",
+        "id": 51,
+        "characters": [
+            "Aloy",
+            "Gorou",
+            "Kokomi",
+            "Kuki Shinobu"
+        ]
+    },
+    {
+        "name": "Starconch",
+        "id": 52,
+        "characters": [
+            "Childe",
+            "Yelan"
+        ]
+    },
+    {
+        "name": "Storm Beads",
+        "id": 53,
+        "characters": [
+            "Raiden",
+            "Sara"
+        ]
+    },
+    {
+        "name": "Thunderclap Fruitcore",
+        "id": 54,
+        "characters": [
+            "Cyno",
+            "Dori"
+        ]
+    },
+    {
+        "name": "Treasure Hoarder Insignia",
+        "id": 55,
+        "characters": [
+            "Beidou",
+            "Bennett",
+            "Heizou",
+            "Kaeya",
+            "Kazuha",
+            "Thoma",
+            "Xinyan",
+            "Yanfei"
+        ]
+    },
+    {
+        "name": "Valberry",
+        "id": 56,
+        "characters": [
+            "Lisa",
+            "Noelle",
+            "Rosaria"
+        ]
+    },
+    {
+        "name": "Violetgrass",
+        "id": 57,
+        "characters": [
+            "Qiqi",
+            "Xinyan"
+        ]
+    },
+    {
+        "name": "Whopperflower Nectar",
+        "id": 58,
+        "characters": [
+            "Ganyu",
+            "Hu Tao",
+            "Keqing",
+            "Mona",
+            "Sayu",
+            "Shenhe",
+            "Sucrose"
+        ]
+    },
+    {
+        "name": "Windwheel Aster",
+        "id": 59,
+        "characters": [
+            "Bennett",
+            "Traveler (Anemo)",
+            "Traveler (Geo)",
+            "Sucrose"
+        ]
+    },
+    {
+        "name": "Wolfhook",
+        "id": 60,
+        "characters": [
+            "Razor"
+        ]
+    }
+]

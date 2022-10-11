@@ -1,0 +1,405 @@
+[
+    {
+        "name": "Admonition",
+        "id": "1",
+        "days": [
+            "Monday",
+            "Thursday"
+        ],
+        "characters": [
+            "Candace",
+            "Cyno",
+            "Tighnari"
+        ]
+    },
+    {
+        "name": "Freedom",
+        "id": 2,
+        "days": [
+            "Monday",
+            "Thursday"
+        ],
+        "characters": [
+            "Aloy",
+            "Amber",
+            "Barbara",
+            "Childe",
+            "Diona",
+            "Klee",
+            "Sucrose",
+            "Traveler (Anemo)",
+            "Traveler (Geo)"
+        ]
+    },
+    {
+        "name": "Prosperity",
+        "id": 3,
+        "days": [
+            "Monday",
+            "Thursday"
+        ],
+        "characters": [
+            "Keqing",
+            "Ningguang",
+            "Qiqi",
+            "Shenhe",
+            "Xiao",
+            "Yelan"
+        ]
+    },
+    {
+        "name": "Transience",
+        "id": 4,
+        "days": [
+            "Monday",
+            "Thursday"
+        ],
+        "characters": [
+            "Heizou",
+            "Kokomi",
+            "Thoma",
+            "Traveler (Electro)",
+            "Yoimiya"
+        ]
+    },
+    {
+        "name": "Diligence",
+        "id": 5,
+        "days": [
+            "Tuesday",
+            "Friday"
+        ],
+        "characters": [
+            "Chongyun",
+            "Ganyu",
+            "Hu Tao",
+            "Kazuha",
+            "Xiangling",
+            "Yun Jin"
+        ]
+    },
+    {
+        "name": "Elegance",
+        "id": 6,
+        "days": [
+            "Tuesday",
+            "Friday"
+        ],
+        "characters": [
+            "Ayaka",
+            "Ayato",
+            "Itto",
+            "Sara",
+            "Traveler (Electro)"
+        ]
+    },
+    {
+        "name": "Ingenuity",
+        "id": 7,
+        "days": [
+            "Tuesday",
+            "Friday"
+        ],
+        "characters": [
+            "Dori"
+        ]
+    },
+    {
+        "name": "Resistance",
+        "id": 8,
+        "days": [
+            "Tuesday",
+            "Friday"
+        ],
+        "characters": [
+            "Bennett",
+            "Diluc",
+            "Eula",
+            "Jean",
+            "Mona",
+            "Noelle",
+            "Razor",
+            "Traveler (Anemo)",
+            "Traveler (Geo)"
+        ]
+    },
+    {
+        "name": "Ballad",
+        "id": 9,
+        "days": [
+            "Wednesday",
+            "Saturday"
+        ],
+        "characters": [
+            "Albedo",
+            "Fischl",
+            "Kaeya",
+            "Lisa",
+            "Rosaria",
+            "Traveler (Anemo)",
+            "Traveler (Geo)",
+            "Venti"
+        ]
+    },
+    {
+        "name": "Gold",
+        "id": 10,
+        "days": [
+            "Wednesday",
+            "Saturday"
+        ],
+        "characters": [
+            "Beidou",
+            "Xingqiu",
+            "Xinyan",
+            "Yanfei",
+            "Zhongli"
+        ]
+    },
+    {
+        "name": "Light",
+        "id": 11,
+        "days": [
+            "Wednesday",
+            "Saturday"
+        ],
+        "characters": [
+            "Gorou",
+            "Raiden",
+            "Sayu",
+            "Traveler (Electro)",
+            "Yae Miko"
+        ]
+    },
+    {
+        "name": "Praxis",
+        "id": 12,
+        "days": [
+            "Wednesday",
+            "Saturday"
+        ],
+        "characters": [
+            "Collei"
+        ]
+    },
+    {
+        "name": "Bloodjade Branch",
+        "id": 13,
+        "days": [
+            "Azhdaha"
+        ],
+        "characters": [
+            "Ayaka",
+            "Dori",
+            "Yanfei"
+        ]
+    },
+    {
+        "name": "Dragon Lord's Crown",
+        "id": 14,
+        "days": [
+            "Azhdaha"
+        ],
+        "characters": [
+            "Eula",
+            "Traveler (Electro)",
+            "Yoimiya"
+        ]
+    },
+    {
+        "name": "Gilded Scale",
+        "id": 15,
+        "days": [
+            "Azhdaha"
+        ],
+        "characters": [
+            "Kazuha",
+            "Sayu",
+            "Yelan"
+        ]
+    },
+    {
+        "name": "Tail of Boreas",
+        "id": 16,
+        "days": [
+            "Andrius"
+        ],
+        "characters": [
+            "Qiqi",
+            "Venti",
+            "Xingqiu"
+        ]
+    },
+    {
+        "name": "Ring of Boreas",
+        "id": 17,
+        "days": [
+            "Andrius"
+        ],
+        "characters": [
+            "Barbara",
+            "Keqing",
+            "Klee",
+            "Mona"
+        ]
+    },
+    {
+        "name": "Spirit Locket of Boreas",
+        "id": 18,
+        "days": [
+            "Andrius"
+        ],
+        "characters": [
+            "Fischl",
+            "Kaeya",
+            "Ningguang",
+            "Sucrose"
+        ]
+    },
+    {
+        "name": "Dvalin's Plume",
+        "id": 19,
+        "days": [
+            "Dvalin"
+        ],
+        "characters": [
+            "Bennett",
+            "Diluc",
+            "Jean"
+        ]
+    },
+    {
+        "name": "Dvalin's Claw",
+        "id": 20,
+        "days": [
+            "Dvalin"
+        ],
+        "characters": [
+            "Lisa",
+            "Noelle",
+            "Razor",
+            "Xiangling"
+        ]
+    },
+    {
+        "name": "Dvalin's Sigh",
+        "id": 21,
+        "days": [
+            "Dvalin"
+        ],
+        "characters": [
+            "Amber",
+            "Beidou",
+            "Chongyun",
+            "Traveler (Anemo)",
+            "Traveler (Geo)"
+        ]
+    },
+    {
+        "name": "Tusk of Monoceros Caeli",
+        "id": 22,
+        "days": [
+            "Tartaglia"
+        ],
+        "characters": [
+            "Albedo",
+            "Xinyan",
+            "Zhongli"
+        ]
+    },
+    {
+        "name": "Shard of a Foul Legacy",
+        "id": 23,
+        "days": [
+            "Tartaglia"
+        ],
+        "characters": [
+            "Childe",
+            "Diona",
+            "Hu Tao"
+        ]
+    },
+    {
+        "name": "Shadow of the Warrior",
+        "id": 24,
+        "days": [
+            "Tartaglia"
+        ],
+        "characters": [
+            "Ganyu",
+            "Rosaria",
+            "Xiao"
+        ]
+    },
+    {
+        "name": "Ashen Heartt",
+        "id": 25,
+        "days": [
+            "Signora"
+        ],
+        "characters": [
+            "Itto",
+            "Sara",
+            "Yun Jin"
+        ]
+    },
+    {
+        "name": "Hellfire Butterfly",
+        "id": 26,
+        "days": [
+            "Signora"
+        ],
+        "characters": [
+            "Kokomi",
+            "Shenhe",
+            "Thoma"
+        ]
+    },
+    {
+        "name": "Molten Momentt",
+        "id": 27,
+        "days": [
+            "Signora"
+        ],
+        "characters": [
+            "Aloy",
+            "Gorou",
+            "Raiden"
+        ]
+    },
+    {
+        "name": "The Meaning of Aeons",
+        "id": 28,
+        "days": [
+            "Oneiric Euthymia"
+        ],
+        "characters": [
+            "Heizou",
+            "Tighnari",
+            "Yae Miko"
+        ]
+    },
+    {
+        "name": "Mudra of the Malefic General",
+        "id": 29,
+        "days": [
+            "Oneiric Euthymia"
+        ],
+        "characters": [
+            "Ayato",
+            "Cyno"
+        ]
+    },
+    {
+        "name": "Tears of the Calamitous God",
+        "id": 30,
+        "days": [
+            "Oneiric Euthymia"
+        ],
+        "characters": [
+            "Candace",
+            "Collei",
+            "Kuki Shinobu"
+        ]
+    }
+]

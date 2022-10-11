@@ -2,6 +2,7 @@ const ASSET_URL = 'http://localhost:3000/assets/';
 const CHARACTER_ICON_URL = ASSET_URL + 'images/characters/icons/';
 const CHARACTER_CARD_URL = ASSET_URL + 'images/characters/cards/';
 const CHARACTER_INFOS_URL = ASSET_URL + 'images/characters/infos/';
+const MATERIAL_ICON_URL = ASSET_URL + 'images/materials/';
 
 const WEAPONS_ICON_URL = ASSET_URL + 'images/weapons/';
 const ARTIFACTS_ICON_URL = ASSET_URL + 'images/artifacts/';
@@ -43,5 +44,6 @@ export {
         CHARACTER_INFOS_URL,
         WEAPONS_ICON_URL,
         ARTIFACTS_ICON_URL,
+        MATERIAL_ICON_URL,
         COLORS 
     }

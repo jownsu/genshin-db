@@ -5,6 +5,16 @@
     height: 70px;
     width: 70px;
 
+    &.big {
+        height: 100px;
+        width: 100px;
+    }
+
+    &.small {
+        height: 50px;
+        width: 50px;
+    }
+
     &.tooltip {
 
         span {
@@ -45,6 +55,18 @@
         padding: 2px;
         border-radius: 100%;
         box-shadow: $shadow;
+
+        &.big {
+            height: 30px;
+            width: 30px;
+        }
+
+        &.small {
+            top: -7px;
+            left: -7px;
+            height: 20px;
+            width: 20px;
+        }
     }
 
     &__element {
@@ -57,6 +79,18 @@
         padding: 2px;
         border-radius: 100%;
         box-shadow: $shadow;
+
+        &.big {
+            height: 30px;
+            width: 30px;
+        }
+
+        &.small {
+            top: -7px;
+            right: -7px;
+            height: 20px;
+            width: 20px;
+        }
     }
 
     &__name {

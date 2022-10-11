@@ -8,18 +8,20 @@ import Character from './pages/Character';
 import Tiers from './pages/Tiers';
 import Guides from './pages/Guides';
 import Teams from './pages/Teams';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
         <Router>
             <Navigation />
-                <Routes>
-                    <Route exact path='/' element={<Characters />}></Route>
-                    <Route exact path='/characters/:name' element={<Character />}></Route>
-                    <Route exact path='/teams' element={<Teams />}></Route>
-                    <Route exact path='/tiers' element={<Tiers />}></Route>
-                    <Route exact path='/guides' element={<Guides />}></Route>
-                </Routes>
+            <Routes>
+                <Route exact path='/' element={<LandingPage />}></Route>
+                <Route exact path='/characters/' element={<Characters />}></Route>
+                <Route exact path='/characters/:name' element={<Character />}></Route>
+                <Route exact path='/teams' element={<Teams />}></Route>
+                <Route exact path='/tiers' element={<Tiers />}></Route>
+                <Route exact path='/guides' element={<Guides />}></Route>
+            </Routes>
             <Footer />
         </Router>
   );

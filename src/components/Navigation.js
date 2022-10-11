@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import GenshinLogo from '../assets/genshin-logo.svg'
 function Navigation() {
+    const location = useLocation();
     const [active, setActive] = useState(false)
 
     const toggleNav = () => {
@@ -13,7 +14,7 @@ function Navigation() {
     }
 
     return (
-        <nav className='nav'>
+        <nav className='nav' style={location.pathname == '/' ? {background: 'transparent'} : {}}>
             <div className="container">
                 <div className='logo'>
                     <img src={GenshinLogo} alt="genshin-logo" className="logo__image"/>
@@ -24,7 +25,7 @@ function Navigation() {
                 <div className={"nav__links " + (active && 'active')}>
                     <NavLink 
                         exact="true" 
-                        to="/" 
+                        to="/characters" 
                         end 
                         className="nav__link"
                         activeclassname="active"
