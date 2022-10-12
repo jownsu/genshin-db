@@ -11,13 +11,13 @@ function Character() {
     const params = useParams();
     const {getCharacter} = useCharacter();
     const [character, setCharacter] = useState({})
-    const didMount = useRef(false);
+    // const didMount = useRef(false);
 
     useEffect(() => {
-        if (!didMount.current) {
-            didMount.current = true;
-            return;
-        }
+        // if (!didMount.current) {
+        //     didMount.current = true;
+        //     return;
+        // }
         setCharacter(getCharacter(params.name));
     }, []);
 
