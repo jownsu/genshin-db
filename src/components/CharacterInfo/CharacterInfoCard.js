@@ -14,7 +14,7 @@ function CharacterInfoCard(props) {
         <div className="character-info-card">
             <div className="character-info-card__header">
                 <img 
-                    src={CHARACTER_INFOS_URL + name.split(' ').join('_').split("'").join('_').split(':').join('') + '.png'} 
+                    src={CHARACTER_INFOS_URL + name.split(' ').join('_').split("'").join('_').split(':').join('').toLowerCase() + '.png'} 
                     alt={name} 
                     className='character-info-card__icon'
                 />
