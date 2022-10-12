@@ -60,7 +60,7 @@ html {
 body {
     font-family: $font-primary;
     color: #fff;
-    background-image: url('../assets/genshin-bg.jpg');
+    background-image: url('../assets/images/genshin-bg.jpg');
     background-repeat: none;
     background-size: contain;
     background-position: top;
@@ -78,6 +78,7 @@ body {
 
 #tsparticles {
     height: 100vh;
+    position: absolute;
 }
 
 .container {

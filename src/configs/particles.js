@@ -15,7 +15,7 @@ const particles_config = {
     },
     detectRetina: true,
     duration: 0,
-    fpsLimit: 30,
+    fpsLimit: 10,
     manualParticles: [],
     particles: {
         bounce: {
@@ -172,7 +172,7 @@ const particles_config = {
             },
             random: false,
             size: false,
-            speed: .5,
+            speed: .2,
             spin: {
                 acceleration: 0,
                 enable: false

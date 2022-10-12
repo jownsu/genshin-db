@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
-import GenshinLogo from '../assets/genshin-logo.svg'
+import GenshinLogo from '../assets/images/genshin-logo.svg'
 function Navigation() {
     const location = useLocation();
     const [active, setActive] = useState(false)

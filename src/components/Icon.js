@@ -1,5 +1,5 @@
 import React from 'react'
-import { ASSET_URL } from '../configs/constants'
+import { ICONS_URL } from '../configs/constants'
 
 function Icon(props) {
 
@@ -19,7 +19,7 @@ function Icon(props) {
             stars.push(
                     <img 
                         key={i}
-                        src={ASSET_URL + 'star.png'} 
+                        src={ICONS_URL + 'star.png'} 
                         alt='star'
                         className='character_icon__star' 
                     />

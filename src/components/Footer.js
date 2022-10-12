@@ -1,5 +1,5 @@
 import React from 'react'
-import GenshinLogo from '../assets/genshin-logo.svg'
+import GenshinLogo from '../assets/images/genshin-logo.svg'
 
 function Footer() {
   return (

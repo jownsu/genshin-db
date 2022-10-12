@@ -1,5 +1,5 @@
 import React from 'react'
-import { ELEMENTS, WEAPONS, CHARACTER_ICON_URL, ASSET_URL, CHARACTER_CARD_URL } from '../configs/constants'
+import { ELEMENTS, WEAPONS, CHARACTER_ICON_URL, ICONS_URL, CHARACTER_CARD_URL } from '../configs/constants'
 import { Link } from 'react-router-dom';
 
 function CharacterIcon(props) {
@@ -23,7 +23,7 @@ function CharacterIcon(props) {
             stars.push(
                     <img 
                         key={i}
-                        src={ASSET_URL + 'star.png'} 
+                        src={ICONS_URL + 'star.png'} 
                         alt='star'
                         className='character_icon__star' 
                     />

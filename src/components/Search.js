@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import SearchIcon from '../assets/search.svg'
-import CloseIcon from '../assets/close.svg'
+import SearchIcon from '../assets/images/search.svg'
+import CloseIcon from '../assets/images/close.svg'
 
 function Search({ onSubmit = () => {}, onChange = () => {}}) {
     const [search, setSearch] = useState('')
