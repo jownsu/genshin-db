@@ -1,0 +1,57 @@
+.landing-page {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, rgba($color-primary-5, .7), rgba($color-primary-5, .7)), url('../../assets/landing-bg.jpg');
+    background-position: center;
+    background-size:cover;
+
+    .container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 4rem;
+        text-shadow: 2px 2px 50px rgba(#fff, .7);
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: 3rem;
+        }
+    }
+
+    &__info {
+        max-width: 50rem;
+        margin-bottom: 10rem;
+        padding: 0 2rem;
+        @media only screen and (max-width: $bp-smallest) {
+            text-align: center;
+        }
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        @media only screen and (max-width: $bp-smallest) {
+            font-size: 1.4rem;
+        }
+    }
+
+    &__download {
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+        img {
+            width: 125px;
+            box-shadow: $shadow-light;
+        }
+        @media only screen and (max-width: $bp-smallest) {
+            justify-content: center;
+            img {
+                width: 140px;
+            }
+        }
+    }
+}
