@@ -32,7 +32,7 @@ function Icon(props) {
     return (
         <div className="character_icon">
             <img 
-                src={url + name.split(' ').join('_') + '.png'} 
+                src={url + name.split(' ').join('_').toLowerCase() + '.png'} 
                 alt={name}
                 className='character_icon__image'    
             />

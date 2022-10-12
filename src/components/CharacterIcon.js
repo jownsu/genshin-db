@@ -42,7 +42,7 @@ function CharacterIcon(props) {
                     <img src={CHARACTER_CARD_URL + name.split(' ').join('_') + '.png'} alt="" />
                 </span>
                 <img 
-                    src={CHARACTER_ICON_URL + name.split(' ').join('_') + '.png'} 
+                    src={CHARACTER_ICON_URL + name.split(' ').join('_').toLowerCase() + '.png'} 
                     alt={name}
                     className='character_icon__image'    
                 />
