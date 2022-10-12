@@ -3,7 +3,8 @@ import Particles from '../components/Particles'
 import NewCharacter from '../components/NewCharacter'
 
 function LandingPage() {
-  return (
+
+    return (
         <div className="landing-page">
             <Particles></Particles>
             <div className="landing-page__hero">
@@ -18,7 +19,6 @@ function LandingPage() {
                     </div>
                 </div>
             </div>
-
 
             <div className="landing-page__new">
                 <div className="container">
