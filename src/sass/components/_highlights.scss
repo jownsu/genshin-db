@@ -1,0 +1,90 @@
+.highlights {
+    position: relative;
+    display: flex;
+    height: 30vw;
+    @media only screen and (max-width: $bp-large) {
+        height: 35vw;
+    }
+    @media only screen and (max-width: $bp-smallest) {
+        height: 50vw;
+    }
+    justify-content: center;
+
+    &__item {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all .3s;
+        width: 60%;
+        height: auto;
+        object-fit: contain;
+        -webkit-filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, .7));
+        filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, .7));
+        @media only screen and (max-width: $bp-large) {
+            width: 65%;
+        }
+        @media only screen and (max-width: $bp-smallest) {
+            width: 80%;
+        }
+        &.active {
+            opacity: 1;
+            z-index: 100;
+            filter: brightness(100%);
+        }
+
+        &.prev {
+            opacity: 1;
+            filter: brightness(40%);
+            transform: translate(-90%, -50%) scale(.7);
+            z-index: 10;
+            @media only screen and (max-width: $bp-large) {
+                transform: translate(-80%, -50%) scale(.7);
+            }
+            @media only screen and (max-width: $bp-smallest) {
+                transform: translate(-70%, -50%) scale(.7);
+            }
+        }
+
+        &.next {
+            opacity: 1;
+            filter: brightness(40%);
+            transform: translate(-10%, -50%) scale(.7);
+            z-index: 10;
+            @media only screen and (max-width: $bp-large) {
+                transform: translate(-20%, -50%) scale(.7);
+            }
+            @media only screen and (max-width: $bp-smallest) {
+                transform: translate(-30%, -50%) scale(.7);
+            }
+        }
+    }
+
+    &__left-icon,
+    &__right-icon {
+        position: absolute;
+        height: 4rem;
+        width: 4rem;
+        top: 50%;       
+        transform: translateY(-50%);
+        cursor: pointer;
+        @media only screen and (max-width: $bp-medium) {
+            height: 3rem;
+            width: 3rem;
+        }
+        @media only screen and (max-width: $bp-smallest) {
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+
+    &__left-icon {
+        left: 0;
+
+    }
+
+    &__right-icon {
+        right: 0;
+    }
+}

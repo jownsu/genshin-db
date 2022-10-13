@@ -47,18 +47,18 @@ function NewCharacter() {
                         onClick={() => setCurrentChar('cyno')}
                         src={NEW_CHARACTER_URL + CHAR['cyno'].icon} 
                         alt="cyno-icon" 
-                        className={currentChar === 'cyno' && 'active'} />
+                        className={currentChar === 'cyno' ? 'active' : ''} />
                     <img 
                         onClick={() => setCurrentChar('nilou')}
                         src={NEW_CHARACTER_URL + CHAR['nilou'].icon} 
                         alt="nilou-icon" 
-                        className={currentChar === 'nilou' && 'active'}    
+                        className={currentChar === 'nilou' ? 'active' : ''}    
                     />
                     <img 
                         onClick={() => setCurrentChar('candace')}
                         src={NEW_CHARACTER_URL + CHAR['candace'].icon} 
                         alt="candace-icon" 
-                        className={currentChar === 'candace' && 'active'}
+                        className={currentChar === 'candace' ? 'active' : ''}
                     />
                 </div>
 

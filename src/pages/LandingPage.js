@@ -4,6 +4,7 @@ import NewCharacter from '../components/NewCharacter'
 import Feature from '../components/Feature'
 import { Link } from 'react-router-dom'
 import { IMAGES_URL } from '../configs/constants'
+import Highlights from '../components/Highlights'
 
 function LandingPage() {
 
@@ -25,7 +26,14 @@ function LandingPage() {
 
             <div className="landing-page__main">
                 <div className="container">
-                    <p className="main-title">Game Features</p>
+                    <p className="main-title">Highlights</p>
+                    <Highlights />
+
+                    <p className="main-title mb-2">New Characters</p>
+                    <NewCharacter />
+                    <Link to="/characters" className='btn-main mb-2'>See All Characters</Link>
+
+                    <p className="main-title mb-2">Game Features</p>
                     <div className="landing-page__features">
                         <Feature 
                             title="An Epic Fantasy Adventure"
@@ -53,9 +61,7 @@ function LandingPage() {
                             image={IMAGES_URL + 'build-your-dream-team.png'}
                         />
                     </div>
-                    <p className="main-title">New Characters</p>
-                    <NewCharacter />
-                    <Link to="/characters" className='btn-main'>See All Characters</Link>
+     
                 </div>
             </div>
         </div>
