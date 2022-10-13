@@ -30,21 +30,14 @@ const CHAR = {
 function NewCharacter() {
     const [currentChar, setCurrentChar] = useState('cyno');
 
-
-    const handleSetChar = (character) => {
-        setCurrentChar(character)
-    }
-
     return (
-        <>
-            <div className="new__title">New Characters</div>
-            <div className="new__main">
+            <div className="new__main reveal">
                 <div className="new__info">
                     <img src={NEW_CHARACTER_URL + CHAR[currentChar].title} alt="cyno" />
                     <p>{CHAR[currentChar].description}</p>
                 </div>
                 
-                <a href={CHAR[currentChar].link} target="_blank" className='new__video' >
+                <a href={CHAR[currentChar].link} target="_blank" rel="noreferrer" className='new__video' >
                     <img src={NEW_CHARACTER_URL + CHAR[currentChar].video} alt="cyno-video" />
                 </a>
  
@@ -54,24 +47,23 @@ function NewCharacter() {
                         onClick={() => setCurrentChar('cyno')}
                         src={NEW_CHARACTER_URL + CHAR['cyno'].icon} 
                         alt="cyno-icon" 
-                        className={currentChar == 'cyno' && 'active'} />
+                        className={currentChar === 'cyno' && 'active'} />
                     <img 
                         onClick={() => setCurrentChar('nilou')}
                         src={NEW_CHARACTER_URL + CHAR['nilou'].icon} 
                         alt="nilou-icon" 
-                        className={currentChar == 'nilou' && 'active'}    
+                        className={currentChar === 'nilou' && 'active'}    
                     />
                     <img 
                         onClick={() => setCurrentChar('candace')}
                         src={NEW_CHARACTER_URL + CHAR['candace'].icon} 
                         alt="candace-icon" 
-                        className={currentChar == 'candace' && 'active'}
+                        className={currentChar === 'candace' && 'active'}
                     />
                 </div>
 
                 <img src={NEW_CHARACTER_URL + CHAR[currentChar].portrait} alt="" className="new__portrait" />
             </div>    
-        </>
     )
 }
 

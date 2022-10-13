@@ -48,8 +48,17 @@
         }
     }
 
-    &__new {
+    &__main {
         padding: 3rem 2rem;
         background: linear-gradient(to bottom right, $color-primary-5, $color-primary-2);
+        display: flex;
     }
+
+    &__features {
+        display: flex;
+        gap: 5rem;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
 }

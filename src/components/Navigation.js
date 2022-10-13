@@ -14,14 +14,14 @@ function Navigation() {
     }
 
     return (
-        <nav className='nav' style={location.pathname == '/' ? {background: 'transparent'} : {}}>
+        <nav className={'nav ' + (location.pathname === '/' && 'transparent')}>
             <div className="container">
-                <div className='logo'>
+                <NavLink exact="true" to='/'end className='logo'>
                     <img src={GenshinLogo} alt="genshin-logo" className="logo__image"/>
                     <div className="logo__title">
-                        <NavLink exact="true" to='/'end>Geshin.GG</NavLink>
+                        Geshin.GG
                     </div>
-                </div>
+                </NavLink>
                 <div className={"nav__links " + (active && 'active')}>
                     <NavLink 
                         exact="true" 

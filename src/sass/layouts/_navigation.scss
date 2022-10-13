@@ -10,9 +10,13 @@
         padding: 0 3rem;
     }
 
-    background: $color-primary-5;
+    background: $color-primary-5;   
     padding: 2rem 0;
-    
+
+    &.transparent {
+        background: transparent;
+    }
+
     @media only screen and (max-width: $bp-medium) {
         padding: 1rem 0;
     }

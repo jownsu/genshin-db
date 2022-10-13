@@ -1,4 +1,5 @@
 const ASSET_URL           = window.location.origin + '/assets/';
+const IMAGES_URL          = ASSET_URL + 'images/';
 const ICONS_URL           = ASSET_URL + 'icons/';
 const CHARACTER_ICON_URL  = ASSET_URL + 'images/characters/icons/';
 const CHARACTER_CARD_URL  = ASSET_URL + 'images/characters/cards/';
@@ -39,6 +40,7 @@ const COLORS = {
 
 export { 
         ASSET_URL,
+        IMAGES_URL,
         ICONS_URL, 
         WEAPONS, 
         ELEMENTS, 

@@ -1,0 +1,114 @@
+.feature {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 3rem 1fr 6rem;
+    
+    @media only screen and (max-width: $bp-medium) {
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    &__card {
+            grid-column: 1 / 5;
+            grid-row: 1 / 3;
+            border: 1rem double #DE9E74;
+            padding: 3rem;
+            border-radius: 7px;
+            position: relative;
+            background: #F3ECDD;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 20;
+            color: $color-primary-5;
+            box-shadow: $shadow;
+
+            @media only screen and (max-width: $bp-medium) {
+                grid-column: 1/-1;
+                grid-row: 2 / 3;
+            }
+    }
+
+    &:nth-child(even) &__card {
+        grid-column: 6 / 10;
+        grid-row: 1 / 3;
+        
+        @media only screen and (max-width: $bp-medium) {
+            grid-column: 1 / -1;
+            grid-row: 2 / 3;
+        }
+    }
+    
+    &__title {
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+
+        @media only screen and (max-width: $bp-large) {
+            font-size: 2.1rem;
+        }
+    }
+
+    &__content {
+        font-size: 1.6rem;
+        font-weight: 500;
+        letter-spacing: 1.4px;
+        @media only screen and (max-width: $bp-large) {
+            font-size: 1.4rem;
+        }
+    }
+
+    &__img {
+        grid-column: 3 / 10;
+        grid-row: 2 / 4;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 10;
+
+        @media only screen and (max-width: $bp-medium) {
+            grid-column: 1/-1;
+            grid-row: 1 / 2;
+        }
+    }
+
+    &:nth-child(even) &__img {
+        grid-column: 1 / 8;
+        grid-row: 2 / 4;
+        @media only screen and (max-width: $bp-medium) {
+            grid-column: 1/-1;
+            grid-row: 1 / 2;
+        }
+    }
+
+    &__corner-top-left,
+    &__corner-top-right,
+    &__corner-bottom-left,
+    &__corner-bottom-right {
+        height: 5rem;
+        width: 5rem;
+        position: absolute;
+    }
+
+    &__corner-top-left {
+        top:0;
+        left: 0;
+    }
+    &__corner-top-right {
+        top: 0;
+        right: 0;
+        transform: rotate(90deg);
+    }
+    &__corner-bottom-left {
+        bottom: 0;
+        left: 0;
+        transform: rotate(-90deg);
+    }
+    &__corner-bottom-right {
+        bottom: 0;
+        right: 0;
+        transform: rotate(180deg);
+    }
+}
