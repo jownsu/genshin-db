@@ -1,7 +1,7 @@
 # Genshin.DB
 
 ## About this project
-Genshin.DB is just a clone of genshin.gg website.
+Genshin.DB is a clone of genshin.gg website with extra components.
 
 ## Built With
 
@@ -18,7 +18,7 @@ This Genshin.DB is made with the following technologies.
 
 ## Demo
 
-https://genshin-bnhtqwtyt-jownsu.vercel.app/
+https://genshin-db.vercel.app/
 
 [React]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [SASS]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
