@@ -19,7 +19,7 @@ function Navigation() {
                 <NavLink exact="true" to='/'end className='logo'>
                     <img src={GenshinLogo} alt="genshin-logo" className="logo__image"/>
                     <div className="logo__title">
-                        Geshin.DB
+                        Genshin.DB
                     </div>
                 </NavLink>
                 <div className={"nav__links " + (active && 'active')}>

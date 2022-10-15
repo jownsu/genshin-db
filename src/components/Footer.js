@@ -9,13 +9,13 @@ function Footer() {
                     <div className='logo'>
                         <img src={GenshinLogo} alt="genshin-logo" className="logo__image"/>
                         <div className="logo__title">
-                            <a href='#'>Geshin.GG</a>
+                            <a href='#'>GENSHIN.DB</a>
                         </div>
                     </div>
                     <p>
-                        <span className='fw-bold'>GENSHIN.GG</span> is not affiliated with or endorsed by miHoYo. <span className='fw-bold'>GENSHIN.GG</span> is a Database and Tier List for the GENSHIN GGpact game for PC, Switch, Playstation 4, and mobile game app on iOS and Android.
+                        <span className='fw-bold'>GENSHIN.DB</span> is not affiliated with or endorsed by miHoYo. <span className='fw-bold'>GENSHIN.DB</span> is a Database and Tier List for the GENSHIN GGpact game for PC, Switch, Playstation 4, and mobile game app on iOS and Android.
                     </p>
-                    <p>© GENSHIN.GG 2022</p>
+                    <p>© GENSHIN.DB 2022</p>
                 </div>
 
                 <div className="footer__links">
